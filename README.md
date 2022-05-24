@@ -37,7 +37,10 @@ python parse.py
 
 
 ex. Edgars Liepa
+
 ex. [@liepa_edgars](https://twitter.com/liepa_edgars)
+
+email: edgars.liepa@biomed.lu.lv
 
 ## TODO
 
