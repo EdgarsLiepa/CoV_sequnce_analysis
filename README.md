@@ -17,15 +17,23 @@ Simple program that counts amino acid changes in each position against reference
 ### Executing program
 
 * Run python script 
-* Results are saved in rez.csv
+* Results are saved in rez.csv  
+
 ```
 python parse.py example.fasta
 ```
 
-NOT IMPLEMENTED: Pass referece sequence seperately.
+NOT IMPLEMENTED: Pass referece sequence seperately.  
+
 ```
 python parse.py example.fasta reference.fasta
-```
+```  
+
+### Jupyter notebooks  
+
+Download mutation data from lapis.cov-spectrum.org [here](./count_mutations.ipynb)  
+Count mutation from allignment [here](./parse.ipynb)  
+
 ## Help
 
 To see help run command without any parameters
@@ -36,9 +44,9 @@ python parse.py
 ## Authors
 
 
-ex. Edgars Liepa
+Name: Edgars Liepa
 
-ex. [@liepa_edgars](https://twitter.com/liepa_edgars)
+Twitter: [@liepa_edgars](https://twitter.com/liepa_edgars)
 
 email: edgars.liepa@biomed.lu.lv
 
@@ -46,6 +54,7 @@ email: edgars.liepa@biomed.lu.lv
 
 - [ ] add that you can specify reference optinally in other file
 - [ ] make jupyer notebook for analysis example
+- [ ] Crete system tests 
 
 ## Version History
 
