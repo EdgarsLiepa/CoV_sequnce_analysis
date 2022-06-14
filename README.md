@@ -1,4 +1,4 @@
-# Count amino acid substitutions 
+# Find imunogenetic cov-19 epitopes
 
 Simple program that counts amino acid changes in each position against reference sequnce.
 
@@ -9,6 +9,7 @@ Simple program that counts amino acid changes in each position against reference
 - Results are saved in a csv file
 
 ## Getting Started
+
 
 ### Dependencies
 
@@ -31,8 +32,9 @@ python parse.py example.fasta reference.fasta
 
 ### Jupyter notebooks  
 
-Download mutation data from lapis.cov-spectrum.org [here](./count_mutations.ipynb)  
-Count mutation from allignment [here](./parse.ipynb)  
+Download mutation data from lapis.cov-spectrum.org [count_mutations.ipynb](./count_mutations.ipynb)  
+Count mutation from allignment [parse.ipynb](./parse.ipynb)  
+Transform brewery 5.0 result files to JSON structures [parseStruct.ipynb](./parseStruct.ipynb)
 
 ## Help
 
