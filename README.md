@@ -6,6 +6,10 @@ Created for scientific project at **Latvian biomedical and reaserch center** .
 
 ## Description
 
+!! IMPORTANT !!
+
+**Curently this repository is under development and might not have all needed files and examples.**
+
 - Download SARS-Cov-2 variant mutation data
 - Load and process predicted epitope data tables for B-cell, T-cell data (MHC-I and MHC-II) and structural data.
 - Add to B-cell and T-cel data tables structural and mutation data.
