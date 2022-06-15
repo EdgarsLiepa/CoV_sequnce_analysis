@@ -1,6 +1,6 @@
 #  Analysis of the nucleocapsid and spike proteins of SARS-Cov-2
 
-This repository consists of python scripts and notebooks used to select best imunogenetic epitopes of the nucleocapsid and spike proteins of SARS-Cov-2.  
+This repository consists of python scripts and notebooks used to select best imunogenetic epitopes of the nucleocapsid and spike proteins of SARS-Cov-2 by combining solvent accessebility, predicted peptides and mutation data.
 
 Created for scientific project at **Latvian biomedical and reaserch center** .  
 
@@ -41,6 +41,15 @@ For detailed descriptions of used piepeline look at [count_mutations.ipynb](./co
 * Scripts were created and tested on python 3.10.4 64 bit version
 
 ### Directory structure 
+
+spikeProt and NProt directories contain data files used in analyasis and epitope result tables.  
+
+In "data" foleder B-cell, MHC-I, MHC-II hold csv input files with predicted B and T cell epitope data. 
+Epitope data were predicted using tools from IEDB: 
+- **B-cell** http://tools.iedb.org/bcell/
+- **MHC-I** http://tools.iedb.org/mhci/
+- **MHC-II** http://tools.iedb.org/mhcii/
+
 
 
 ```
@@ -87,13 +96,6 @@ project
 |       └───MHC-I
 |       └─── ...
 ```
-spikeProt and NProt directories contain data files used in analyasis and epitope result tables.  
-
-In "data" foleder B-cell, MHC-I, MHC-II hold csv input files with predicted B and T cell epitope data. 
-Epitope data were predicted using tools from IEDB: 
-- **B-cell** http://tools.iedb.org/bcell/
-- **MHC-I** http://tools.iedb.org/mhci/
-- **MHC-II** http://tools.iedb.org/mhcii/
 
 ### Executing python program
 
@@ -155,13 +157,13 @@ Inspiration, code snippets, etc.
 
 A helpful checklist to gauge how your README is coming along:
 
-- [ ] One-liner explaining the purpose of the module
-- [ ] Necessary background context & links
+- [X] One-liner explaining the purpose of the module
+- [X] Necessary background context & links
 - [ ] Potentially unfamiliar terms link to informative sources
 - [ ] Clear, *runnable* example of usage
 - [ ] Installation instructions
 - [ ] Extensive API documentation
 - [ ] Performs [cognitive funneling](https://github.com/noffle/art-of-readme#cognitive-funneling)
 - [ ] Caveats and limitations mentioned up-front
-- [ ] Doesn't rely on images to relay critical information
+- [x] Doesn't rely on images to relay critical information
 - [ ] License
