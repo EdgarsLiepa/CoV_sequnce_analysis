@@ -44,15 +44,20 @@ For detailed descriptions of used piepeline look at [count_mutations.ipynb](./co
 
 * Scripts were created and tested on python 3.10.4 64 bit version
 
+* Hugging faces Transformer api for ESM AI model.
+
 ### Directory structure 
 
 spikeProt and NProt directories contain data files used in analyasis and epitope result tables.  
+
+- **Linear Epitopes** - folder with scripts for linear epitope 3D protein structure generation using ESM machine learning model and visualization. 
 
 In "data" foleder B-cell, MHC-I, MHC-II hold csv input files with predicted B and T cell epitope data. 
 Epitope data were predicted using tools from IEDB: 
 - **B-cell** http://tools.iedb.org/bcell/
 - **MHC-I** http://tools.iedb.org/mhci/
 - **MHC-II** http://tools.iedb.org/mhcii/
+
 
 
 
@@ -64,7 +69,7 @@ project
 |   parse.py
 |   parseStruct.ipynb
 │
-└───spikeProt
+└───sProt
 │   │   S_epitope_alpha.xlsx
 │   │   S_epitope_beta.xlsx
 │   │   ...
@@ -99,6 +104,16 @@ project
 |           | ...
 |       └───MHC-I
 |       └─── ...
+|
+|___Linear epitopes
+    |___longLinkers
+    |
+    |___shortLinkers
+    |
+    |   generate-3D-struct-combinations.ipynb
+    |   show_best_models.ipynb
+
+
 ```
 
 ### Executing python program
