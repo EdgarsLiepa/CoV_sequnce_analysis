@@ -15,7 +15,8 @@ For this task ESMFold model is used.
 
 ## Files
 
-[combinations.ipynb](./combinations.ipynb) - generate vaccine insert sequences from multiple epitopes and defined linkers.
+[generate-3D-struct-combinations.ipynb](./generate-3D-struct-combinations.ipynb) - generate vaccine insert sequences from multiple epitopes and defined linkers starting and end linkers.
+Then distances between N and C ends are calculated.
 
 [show_best_models.ipynb](./show_best_models.ipynb) - display calculated 3D structures and calculate distance between N and C ends. 
 
